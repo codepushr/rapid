@@ -1,0 +1,11 @@
+[prune]
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  name = "github.com/jinzhu/gorm"
+  version = "1.9.1"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/globalsign/mgo"
